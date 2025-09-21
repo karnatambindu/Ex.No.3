@@ -1,6 +1,6 @@
 # Ex.No.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
-REGISTER NUMBER : 212223060113
- NAME : Karnatam Bindu
+**REGISTER NUMBER **: 212223060113
+**NAME** : Karnatam Bindu
 # Aim:
 To demonstrate how diverse prompting techniques across AI platforms can be applied to generate scenario-based project reports by simulating each design stage from ideation to deployment.
 
@@ -31,7 +31,7 @@ Stage 1: Requirement Gathering and User Needs Assessment
 
 # User Scenario Prompting
 
-Prompt: “You’re organizing a school sports event next weekend. What weather alerts would concern you the most?”
+**Prompt:** “You’re organizing a school sports event next weekend. What weather alerts would concern you the most?”
 
 
 Goal: Identify weather sensitivities like lightning risk, rainfall timing, wind gusts, and temperature spikes.
@@ -47,7 +47,7 @@ Goal:  Segment data based on user roles to enhance personalization.
 
 Preceding Question Prompting
 
-Prompt: “Before planning outdoor logistics, what general weather alerts are most crucial?” Goal: Determine first-glance alert hierarchy such as severe alerts → precipitation → wind.
+**Prompt:** “Before planning outdoor logistics, what general weather alerts are most crucial?” Goal: Determine first-glance alert hierarchy such as severe alerts → precipitation → wind.
 
 Stage 2: System Design and Architecture
 Technical Scenario Prompting Prompt: “Design a system where weather API calls are optimized to refresh data hourly without performance bottlenecks.” Goal: Push for cache strategies, use of edge servers, and cost-efficient backend logic.
@@ -63,7 +63,7 @@ Preceding Question Prompting Prompt: “Before finalizing serverless vs monolith
 Stage 3: Prototype Development
 # Scenario-Based Workflow Prompting
 
-Prompt: “A tourist opens the app to check weather for three destinations. Outline their journey from input to result.”
+**Prompt:**“A tourist opens the app to check weather for three destinations. Outline their journey from input to result.”
 
 Goal: Design user-friendly multi-location search with minimum friction.
 
@@ -81,18 +81,18 @@ Goal: Break down user flow and expected behavior.
 
 Preceding Question Prompting
 
-Prompt: “Before the user sees full 7-day forecast, should a highlight of ‘next 24 hours’ be shown?”
+**Prompt:** “Before the user sees full 7-day forecast, should a highlight of ‘next 24 hours’ be shown?”
 
 Goal: Improve UX by prioritizing near-future insights.
 
 Stage 4: Testing and Iteration
 # Stress Testing Prompting
-Prompt: “Simulate a condition where rainfall alerts are sent to 50,000 users simultaneously. What could break?”
+**Prompt:** “Simulate a condition where rainfall alerts are sent to 50,000 users simultaneously. What could break?”
 
 Goal: Detect issues in push delivery rate, queuing delays, and notification clustering.
 
 # Straightforward Prompting
-Prompt: “Mention 3 common UI issues users face in forecast-heavy apps.”
+**Prompt:** “Mention 3 common UI issues users face in forecast-heavy apps.”
 
 Goal: Focus on design flaws like overload, poor navigation, and unreadable icons.
 
@@ -102,18 +102,18 @@ Issue Mitigation Strategy API Overload Rate limit & dynamic backoff mechanism Cl
 Goal: Map challenges to actionable fixes.
 
 # Preceding Question Prompting
-Prompt: “Before retrying failed API calls, what timeout or backoff policies should apply?”
+**Prompt:** “Before retrying failed API calls, what timeout or backoff policies should apply?”
 
 Goal: Protect system from infinite retry loops and ensure graceful degradation.
 
 Stage 5: Deployment and Continuous Improvement
 # Real-World Scenario Prompting
-Prompt: “A cyclone alert has just been issued. How should the system prioritize and deliver location-based alerts?”
+**Prompt:** “A cyclone alert has just been issued. How should the system prioritize and deliver location-based alerts?”
 
 Goal:Ensure dynamic alert routing by user proximity, severity, and timing.
 
 # Straightforward Prompting
-Prompt: “List 4 long-term growth strategies for a weather app post-deployment.”
+**Prompt:** “List 4 long-term growth strategies for a weather app post-deployment.”
 
 Goal: Drive retention through feature enrichment and engagement loops.
 
@@ -123,7 +123,7 @@ Strategy Description Premium Subscription Unlock advanced forecasts & no ads Reg
 Goal: Highlight scalable enhancement pathways.
 
 # Preceding Question Prompting
-Prompt: “Before launching in hilly or coastal regions, what terrain-specific forecasts must the system support?” Goal: Plan for elevation-based predictions, fog alerts, and landslide risk zones.
+**Prompt:** “Before launching in hilly or coastal regions, what terrain-specific forecasts must the system support?” Goal: Plan for elevation-based predictions, fog alerts, and landslide risk zones.
 
 # Evaluation of Prompt Effectiveness
 Accuracy & Depth
