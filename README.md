@@ -30,9 +30,9 @@ Integrate with emergency services during accidents.
 Stage 1: Requirement Gathering and User Needs Assessment
 
 # User Scenario Prompting
-```
+
 Prompt: “You’re organizing a school sports event next weekend. What weather alerts would concern you the most?”
-```
+
 
 Goal: Identify weather sensitivities like lightning risk, rainfall timing, wind gusts, and temperature spikes.
 
@@ -46,9 +46,9 @@ User Type Weather Info Required Decision Support Provided School Principal Air q
 Goal:  Segment data based on user roles to enhance personalization.
 
 Preceding Question Prompting
-```
+
 Prompt: “Before planning outdoor logistics, what general weather alerts are most crucial?” Goal: Determine first-glance alert hierarchy such as severe alerts → precipitation → wind.
-```
+
 Stage 2: System Design and Architecture
 Technical Scenario Prompting Prompt: “Design a system where weather API calls are optimized to refresh data hourly without performance bottlenecks.” Goal: Push for cache strategies, use of edge servers, and cost-efficient backend logic.
 
@@ -57,20 +57,20 @@ Straightforward Prompting Prompt: “What are the 6 core components of an intell
 Tabular Format Prompting Module Name Description Suggested Stack API Integrator Connects to real-time weather APIs Python + OpenWeather API Caching Layer Stores frequent calls temporarily Redis Forecast Engine Predictive model for trends Prophet / XGBoost Visualization UI Real-time weather charts and alerts Vue.js / Chart.js Notification Hub Sends weather alerts in real time Twilio / OneSignal Admin Dashboard Monitor usage & API load Django Admin
 
 Goal: Clarify backend and frontend interoperation.
-```
+
 Preceding Question Prompting Prompt: “Before finalizing serverless vs monolith design, what trade-offs in scalability and latency must be reviewed?” Goal: Address architecture decisions based on performance benchmarks.
-```
+
 Stage 3: Prototype Development
 # Scenario-Based Workflow Prompting
-```
+
 Prompt: “A tourist opens the app to check weather for three destinations. Outline their journey from input to result.”
-```
+
 Goal: Design user-friendly multi-location search with minimum friction.
 
 Straightforward Prompting
-```
+
 Prompt: “List the steps for receiving severe weather notifications on the app.”
-```
+
 Goal: Ensure clear notification setup process: Settings → Location → Notification Type → Save.
 
 # Tabular Format Prompting
@@ -80,9 +80,9 @@ Step User Action System Response
 Goal: Break down user flow and expected behavior.
 
 Preceding Question Prompting
-```
+
 Prompt: “Before the user sees full 7-day forecast, should a highlight of ‘next 24 hours’ be shown?”
-```
+
 Goal: Improve UX by prioritizing near-future insights.
 
 Stage 4: Testing and Iteration
