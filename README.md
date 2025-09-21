@@ -1,6 +1,6 @@
 # Ex.No.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
 REGISTER NUMBER : 212223060113
-NAME : Karnatam Bimdu
+NAME : Karnatam Bindu
 # Aim:
 To demonstrate how diverse prompting techniques across AI platforms can be applied to generate scenario-based project reports by simulating each design stage from ideation to deployment.
 
